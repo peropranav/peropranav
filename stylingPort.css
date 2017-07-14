@@ -75,9 +75,9 @@ font-size: 35px;
 
 @-webkit-keyframes rotation {
 		from {
-				-webkit-transform: rotate(170deg);
+				-webkit-transform: rotate(85deg);
 		}
 		to {
-				-webkit-transform: rotate(190deg);
+				-webkit-transform: rotate(95deg);
 		}
 }
