@@ -6,7 +6,8 @@
     box-shadow: 10px 10px 5px #888888;
 }
 body{
- color: white;
+ color: black;
+background-size: cover;
 }
 
 .social{
