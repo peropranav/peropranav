@@ -9,48 +9,15 @@
 
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<title>Pranav Kapoor</title>
-	<script type="text/paperscript" canvas="myCanvas">
-
-var count = 150;
-
-// Create a symbol, which we will use to place instances of later:
-var path = new Path.Circle({
-center: [0, 0],
-radius: 50,
-fillColor: 'white',
-strokeColor: 'rgb(150,150,150)'
-});
-
-var symbol = new Symbol(path);
-
-// Place the instances of the symbol:
-for (var i = 0; i < count; i++) {
-// The center position is a random point in the view:
-var center = Point.random() * view.size;
-var placedSymbol = symbol.place(center);
-placedSymbol.scale(i / count);
-}
-
-// Move the item 1/20th of its width to the right. This way
-// larger circles move faster than smaller circles:
-        item.position.x += item.bounds.width / 200;
-
-// If the item has left the view on the right, move it back
-// to the left:
-        if (item.bounds.left > view.size.width) {
-            item.position.x = -item.bounds.width;
-        }
-    }
-}
-</script>
+	
 
 </head>
 <!--<canvas id="myCanvas" width="1440" height="2000" style="width: 100%; height: 100%; position: fixed;"></canvas>-->
-<body background="background01.jpg">
+<body background="./images/background01.jpg">
 <div class="container">
 	<div class="row">
 		<div class="col-lg-6  col-lg-offset-4 col-xs-12">
-			<img class="me" src="pranav.jpg" id="loading">
+			<img class="me" src="./images/pranav.jpg" id="loading">
 <h1>Pranav Kapoor</h1>
 			<h4>Front end Developer</h4>
 		</div>
@@ -81,22 +48,22 @@ placedSymbol.scale(i / count);
 		</div>
 		     <div class="row">
 
-			    <div class="skill col-lg-3 col-xs-3"><img src="cpp.png" class="size"></div>
-			    <div class="skill col-lg-3 col-xs-3"><img src="bootstrap.jpg" class="size"></div>
-			    <div class="skill col-lg-3 col-xs-3"><img src="css.jpg" class="size"></div>
-				 <div class="skill col-lg-3 col-xs-3 "><img src="html.jpg" class="size"> </div>
+			    <div class="skill col-lg-3 col-xs-3"><img src="./images/cpp.png" class="size"></div>
+			    <div class="skill col-lg-3 col-xs-3"><img src="./images/bootstrap.jpg" class="size"></div>
+			    <div class="skill col-lg-3 col-xs-3"><img src="./images/css.jpg" class="size"></div>
+				 <div class="skill col-lg-3 col-xs-3 "><img src="./images/html.jpg" class="size"> </div>
 		     </div>
 	           <div class="row">
 
-		          <div class="skill col-lg-3 col-xs-3"><img src="javascript_logo.png" class="size"></div>
-				  <div class="skill col-lg-3 col-xs-3  "><img src="java.jpg" class="size"> </div>
-				  <div class="skill  col-lg-3 col-xs-3 "><img src="jquery.png" class="size"></div>
-				  <div class="skill col-lg-3 col-xs-3  "><img src="mysql.jpg" class="size"></div>
+		          <div class="skill col-lg-3 col-xs-3"><img src="./images/javascript_logo.png" class="size"></div>
+				  <div class="skill col-lg-3 col-xs-3  "><img src="./images/java.jpg" class="size"> </div>
+				  <div class="skill  col-lg-3 col-xs-3 "><img src="./images/jquery.png" class="size"></div>
+				  <div class="skill col-lg-3 col-xs-3  "><img src="./images/mysql.jpg" class="size"></div>
 		       </div>
 
 	           <div class="row">
-			     <div class="skill col-lg-3 col-xs-3  "><img src="mongodb.png" class="size"></div>
-			     <div class="skill col-lg-3 col-xs-3  "><img src="nodejs.png" class="size"></div>
+			     <div class="skill col-lg-3 col-xs-3  "><img src="./images/mongodb.png" class="size"></div>
+			     <div class="skill col-lg-3 col-xs-3  "><img src="./images/nodejs.png" class="size"></div>
 		       </div>
 
 
@@ -110,13 +77,13 @@ placedSymbol.scale(i / count);
 </div>
 <div class="row">
 
-	<div class="projectSet col-lg-4 col-xs-12"><a href="https://peropranav.github.io/randomQuoteMachine/"> <img src="randomQuote.jpg" class="project"></a>
+	<div class="projectSet col-lg-4 col-xs-12"><a href="https://peropranav.github.io/randomQuoteMachine/"> <img src="./images/randomQuote.jpg" class="project"></a>
 	<h2>Random Quote Machine</h2>
 	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://buyer-ostritch-66710.bitballoon.com/"><img src="patatap.jpg" class="project"></a>
+	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://buyer-ostritch-66710.bitballoon.com/"><img src="./images/patatap.jpg" class="project"></a>
 		<h2>Patatap(paper.js)</h2>
 	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://invester-birth-73438.bitballoon.com/"><img src="toDo.jpg" class="project"></a>
+	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://invester-birth-73438.bitballoon.com/"><img src="./images/toDo.jpg" class="project"></a>
 		<h2>toDO List</h2>
 	</div>
 
@@ -125,10 +92,10 @@ placedSymbol.scale(i / count);
 	<div class="row">
 
 
-		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/MS-Dhoni/"><img src="msdhoni.jpg" class="project"></a>
+		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/MS-Dhoni/"><img src="./images/msdhoni.jpg" class="project"></a>
 			<h2>MS dhoni Tribute Page</h2>
 		</div>
-		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/admission-tech-form/"><img src="admissionForm.jpg" class="project"></a>
+		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/admission-tech-form/"><img src="./images/admissionForm.jpg" class="project"></a>
 			<h2>Responsive admission form</h2>
 		</div>
 		</div>
@@ -136,7 +103,15 @@ placedSymbol.scale(i / count);
 
 
 </div>
+<div class="container">
 
-
+                <h1>Contact Me</h1>
+           <div id="mapNIEC" style="height:400px"> </div>
+</div>
+<br>
+<br>
 </body>
+<script type="text/javascript" src="custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1gC3KLbKu725nGocmYAtjYpmQhK4WslY&callback=myMap"></script>
+
 </html>
