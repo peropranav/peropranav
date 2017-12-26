@@ -6,14 +6,54 @@
 <link rel="stylesheet" type="text/css" href="stylingPort.css">
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Lobster" rel="stylesheet">
 	<script type="text/javascript" src="paper-full.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
 
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<title>Pranav Kapoor</title>
 	
 
 </head>
-<!--<canvas id="myCanvas" width="1440" height="2000" style="width: 100%; height: 100%; position: fixed;"></canvas>-->
-<body background="./images/background01.jpg">
+<body>
+
+	<nav class="navbar navbar-inverse" id="backToTop">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">peroPranav</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+       
+        <li><a href="#skillScroll">Skills</a></li>
+        <li><a href="#projectScroll">Projects</a></li>
+                <li><a href="#contactScroll">Contact Me</a></li>
+                                <li><a href="#TestimonialScroll">Testimonial</a></li>
+
+                                <li><a href="https://peropranav.wordpress.com/">Wordpress Blog</a></li>
+
+
+
+      </ul>
+      <!--something from node
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      
+      node ended-->
+
+    </div>
+  </div>
+</nav>
+
+  
 <div class="container">
 	<div class="row">
 		<div class="col-lg-6  col-lg-offset-4 col-xs-12">
@@ -30,9 +70,9 @@
 
 		<div class="social"><a href="https://twitter.com/peropranav"><i class="fa fa-twitter fa-4x"></i></a></div>
 
-	   <div class="social"><a href="https://www.instagram.com/peropranav/?hl=en"><i class="fa fa-instagram fa-4x"></i></div>
+	   <div class="social"><a href="https://www.instagram.com/peropranav/?hl=en"><i class="fa fa-instagram fa-4x"></i></a></div>
 
-	   <div class="social"><a href="https://github.com/peropranav"><i class="fa fa-github fa-4x"></i></div>
+	   <div class="social"><a href="https://github.com/peropranav"><i class="fa fa-github fa-4x"></i></a></div>
 
 		<div class="social"><a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"> <i class="fa fa-linkedin fa-4x"></i></a></div>
 
@@ -41,7 +81,7 @@
 </div>
 	    <div class="row">
 
-		    <div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3">
+		    <div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="skillScroll">
 
 		         <h2>SKILLS</h2> <br>
 		    </div>
@@ -67,9 +107,10 @@
 		       </div>
 
 
+
 <div class="row">
 
-	<div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3">
+	<div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="projectScroll">
 
 		<h2>Projects</h2>
 		<h5>Click the card to view</h5>
@@ -101,15 +142,69 @@
 		</div>
 
 
+<!--testimonials by 3-->
+<div class="row" id="TestimonialScroll">
+
+	<div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="projectScroll">
+
+		<h2>Testimonials</h2>
+		
+	</div>
+</div>
+<div class="row">
+
+	<div class="projectSet col-lg-4 col-xs-12"><img src="./images/shrutiDidiDtu.jpg" class="testimonial">
+	</div>
+	<div class="projectSet col-lg-4 col-xs-12 "><img src="./images/ankurSirCN.jpg" class="testimonial">
+	</div>
+	<div class="projectSet col-lg-4 col-xs-12 "><img src="./images/devSirHungerista.jpg" class="testimonial">
+	</div>
 
 </div>
-<div class="container">
+
+</div>
+
+
+
+<div class="container" id="contactScroll">
 
                 <h1>Contact Me</h1>
            <div id="mapNIEC" style="height:400px"> </div>
 </div>
+
+<div class="container">
+	<div class="row">
+		<h1>Social Links</h1>
+</div>
+<div class="row">
+
+	<div class="col-lg-12">
+		<div class="social"><a href="https://www.facebook.com/peropranav"> <i class="fa fa-facebook fa-4x"></i></a></div>
+
+		<div class="social"><a href="https://twitter.com/peropranav"><i class="fa fa-twitter fa-4x"></i></a></div>
+
+	   <div class="social"><a href="https://www.instagram.com/peropranav/?hl=en"><i class="fa fa-instagram fa-4x"></i></a></div>
+
+	   <div class="social"><a href="https://github.com/peropranav"><i class="fa fa-github fa-4x"></i></a></div>
+
+		<div class="social"><a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"> <i class="fa fa-linkedin fa-4x"></i></a></div>
+
+	</div>
+
+</div>
+<br>
+<div class="row">
+	<div class="col-lg-4 col-xs-4  col-lg-offset-4 col-xs-offset-4">
+
+<a href="#backToTop"><button class="btn btn-primary">Back To Top &nbsp;<i class="fa fa-hand-o-up" aria-hidden="true"></i> </button></a>
+</div>
+
+
+
+</div>    
 <br>
 <br>
+
 </body>
 <script type="text/javascript" src="custom.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1gC3KLbKu725nGocmYAtjYpmQhK4WslY&callback=myMap"></script>
