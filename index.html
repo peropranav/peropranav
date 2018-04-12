@@ -11,15 +11,15 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 	<title>Pranav Kapoor</title>
 
 
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse" id="backToTop">
+	<nav class="navbar navbar-inverse" id="backToTop" style="position: fixed;z-index: 1;width: 100%">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -33,7 +33,6 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
 
-        <li><a href="#skillScroll">Skills</a></li>
         <li><a href="#projectScroll">Projects</a></li>
                                         <li><a href="#TestimonialScroll">Testimonial</a></li>
 
@@ -56,159 +55,231 @@
   </div>
 </nav>
 
+<br> <br>
+
+
+
 
 <div class="container">
+
+
+
 	<div class="row">
-		<div class="col-lg-6  col-lg-offset-4 col-xs-12">
+
+		<div class="col-lg-3 col-lg-offset-1 col-xs-12">
+
 			<img class="me" src="./images/pranav.jpg" id="loading">
+
+		</div>
+
+
+		<div class="col-lg-offset-1 col-lg-7">
+<br>
 <h1>Pranav Kapoor</h1>
-			<h4>MEAN stack Developer</h4>
-		</div>
-	</div>
+			<h4 style="font-family: 'Montserrat', sans-serif;">I am Pranav Kapoor, B.Tech undergrad in Computer Science  from <br> </h4>
 
-<div class="row">
+				<h4 style="text-align: center">Northern India Engineering College, New Delhi</h4>
 
-	<div class="col-lg-12">
-		<div class="social"><a href="https://www.facebook.com/peropranav"> <i class="fa fa-facebook fa-4x"></i></a></div>
-
-		<div class="social"><a href="https://twitter.com/peropranav"><i class="fa fa-twitter fa-4x"></i></a></div>
-
-	   <div class="social"><a href="https://www.instagram.com/peropranav/?hl=en"><i class="fa fa-instagram fa-4x"></i></a></div>
-
-	   <div class="social"><a href="https://github.com/peropranav"><i class="fa fa-github fa-4x"></i></a></div>
-
-		<div class="social"><a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"> <i class="fa fa-linkedin fa-4x"></i></a></div>
-
-
-	</div>
-</div>
-	    <div class="row">
-
-		    <div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="skillScroll">
-
-		         <h2>SKILLS</h2> <br>
-		    </div>
-		</div>
-		     <div class="row">
-
-			    <div class="skill col-lg-3 col-xs-3"><img src="./images/cpp.png" class="size"></div>
-			    <div class="skill col-lg-3 col-xs-3"><img src="./images/bootstrap.jpg" class="size"></div>
-			    <div class="skill col-lg-3 col-xs-3"><img src="./images/css.jpg" class="size"></div>
-				 <div class="skill col-lg-3 col-xs-3 "><img src="./images/html.jpg" class="size"> </div>
-		     </div>
-	           <div class="row">
-
-		          <div class="skill col-lg-3 col-xs-3"><img src="./images/javascript_logo.png" class="size"></div>
-				  <div class="skill col-lg-3 col-xs-3  "><img src="./images/java.jpg" class="size"> </div>
-				  <div class="skill  col-lg-3 col-xs-3 "><img src="./images/jquery.png" class="size"></div>
-				  <div class="skill col-lg-3 col-xs-3  "><img src="./images/mysql.jpg" class="size"></div>
-		       </div>
-
-	           <div class="row">
-			     <div class="skill col-lg-3 col-xs-3  "><img src="./images/mongodb.png" class="size"></div>
-			     <div class="skill col-lg-3 col-xs-3  "><img src="./images/nodejs.png" class="size"></div>
-		       </div>
-
-
-
-<div class="row">
-
-	<div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="projectScroll">
-
-		<h2>Projects</h2>
-		<h5>Click the card to view</h5>
-	</div>
-</div>
-<div class="row">
-
-	<div class="projectSet col-lg-4 col-xs-12"><a href="https://peropranav.github.io/randomQuoteMachine/"> <img src="./images/randomQuote.jpg" class="project"></a>
-	<h2>Random Quote Machine</h2>
-	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://buyer-ostritch-66710.bitballoon.com/"><img src="./images/patatap.jpg" class="project"></a>
-		<h2>Patatap(paper.js)</h2>
-	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><a href="http://invester-birth-73438.bitballoon.com/"><img src="./images/toDo.jpg" class="project"></a>
-		<h2>toDO List</h2>
-	</div>
-
-</div>
-
-	<div class="row">
-
-
-		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/MS-Dhoni/"><img src="./images/msdhoni.jpg" class="project"></a>
-			<h2>MS dhoni Tribute Page</h2>
-		</div>
-		<div class="projectSet col-lg-4 col-xs-12 "><a href="https://peropranav.github.io/admission-tech-form/"><img src="./images/admissionForm.jpg" class="project"></a>
-			<h2>Responsive admission form</h2>
-		</div>
-		</div>
-
-
-<!--testimonials by 3-->
-<div class="row" id="TestimonialScroll">
-
-	<div class="col-lg-6  col-lg-offset-4 col-xs-7 col-xs-offset-3" id="projectScroll">
-
-		<h2>Testimonials</h2>
-
-	</div>
-</div>
-<div class="row">
-
-	<div class="projectSet col-lg-4 col-xs-12"><img src="./images/shrutiDidiDtu.jpg" class="testimonial">
-	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><img src="./images/ankurSirCN.jpg" class="testimonial">
-	</div>
-	<div class="projectSet col-lg-4 col-xs-12 "><img src="./images/devSirHungerista.jpg" class="testimonial">
-	</div>
-
-</div>
-
-</div>
-
-
-
-<div class="container" id="contactScroll">
-
-                <h1>Contact Me</h1>
-           <div id="mapNIEC" style="height:400px"> </div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<h1>Social Links</h1>
-</div>
-<div class="row">
-
-	<div class="col-lg-12">
-		<div class="social"><a href="https://www.facebook.com/peropranav"> <i class="fa fa-facebook fa-4x"></i></a></div>
-
-		<div class="social"><a href="https://twitter.com/peropranav"><i class="fa fa-twitter fa-4x"></i></a></div>
-
-	   <div class="social"><a href="https://www.instagram.com/peropranav/?hl=en"><i class="fa fa-instagram fa-4x"></i></a></div>
-
-	   <div class="social"><a href="https://github.com/peropranav"><i class="fa fa-github fa-4x"></i></a></div>
-
-		<div class="social"><a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"> <i class="fa fa-linkedin fa-4x"></i></a></div>
-
-	</div>
-
-</div>
 <br>
-<div class="row">
-	<div class="col-lg-4 col-xs-4  col-lg-offset-4 col-xs-offset-4">
 
-<a href="#backToTop"><button class="btn btn-primary">Back To Top &nbsp;<i class="fa fa-hand-o-up" aria-hidden="true"></i> </button></a>
+			<div>
+
+				<h4><i class="fab fa-node fa-3x"></i> &nbsp;nodeJs Developer &nbsp;  &nbsp;  &nbsp; <i class="fas fa-database fa-2x"></i> Certified MongoDb Developer</h4>
+				<h4><i class="fab fa-java fa-3x"></i>&nbsp; Core Java Developer </h4>
+
+			</div>
+
+
+		</div>
+
+
+
+</div>
+
+</div>
+
+	<br>
+	<br><br> <br>
+	<div class="container-fluid" id="projectScroll">
+
+
+
+<div class="row" style="margin-top: 100px;" >
+
+	<div class="col-lg-4 col-lg-offset-2">
+
+		<p style="font-family:'Montserrat', sans-serif; font-size: 30px; ">Chat App on NodeJs using Socket IO</p>
+
+		<p style="font-size: 14px;">
+			Real time chat app on Socket IO, backend server on Express,designed on bootstrap. Custom chat rooms , chatbox serves
+			real time message and location sharing using geolocation API.
+<br> <br>
+            <a  style="font-size: 20px;font-weight: 800" href="https://stark-coast-34337.herokuapp.com/" ><i class="fas fa-comments"></i> &nbsp; Open APP</a>
+            <br> <br>
+            <a  style="font-size: 20px;font-weight: 800" href="https://github.com/peropranav/chatAppNodeJs" ><i class="fas fa-terminal"></i> &nbsp;Watch Code</a>
+
+
+        </p>
+
+	</div>
+
+	<div class="col-lg-5">
+
+		<img src="./images/nodeChatApp.jpg" style="width: 70%; height: 380px;">
+	</div>
+
+
+
+
+
+</div>
+
+
+        <div class="row" style="margin-top: 100px;">
+
+            <div class="col-lg-5 col-lg-offset-2">
+
+
+                <img src="./images/bloggingSystemImage.jpg" style="width: 70%; height: 380px;">
+            </div>
+
+
+            <div class="col-lg-4">
+
+                <p style="font-family:'Montserrat', sans-serif; font-size: 30px; ">Blogging System on NodeJs using Express,MongoDB EJS and Passport</p>
+
+                <p style="font-size: 14px;">
+                   Blogging system on Express JS,designed on bootstrap.OAuth using facebook strategy using Passport Js.EJS as templating engine,
+                    blogs being stored on mongoDb mapped with user.
+                    <br> <br>
+                    <a  style="font-size: 20px;font-weight: 800" href="https://github.com/peropranav/bloggingSystem" ><i class="fab fa-blogger-b"></i></i> &nbsp; Open APP</a>
+                    <br> <br>
+                    <a  style="font-size: 20px;font-weight: 800" href="https://github.com/peropranav/bloggingSystem" ><i class="fas fa-terminal"></i> &nbsp;Watch Code</a>
+
+
+                </p>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
 
+    <div class="container" id="contactScroll">
+        <div class="row">
+            <br> <br>
+            <h1 style="text-align: center;font-family: 'Bree Serif', serif;font-size: 30px;">Contact Me</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="mapNIEC" style="height:430px"> </div>
+            </div>
+            <div class="col-lg-4 formStyle col-xs-12">
+                <span style="font-family: monospace;font-size: larger"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;ADDRESS: </span>
+                <span style="font-weight: 900">Northern India Engineering College</span> <br>
+                <span style="margin-left: 84px;font-weight: 900;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FC-26, Shastri Park</span> <br>
+                <span style="margin-left: 84px; font-weight: 900;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Delhi - 110 053 </span> <br> <br>
+                <span style="font-family: monospace;font-size: larger"><i class="fa fa-envelope" aria-hidden="true"></i> MAIL:</span> <span style="margin-left: 30px;font-weight: 900;">pranavkapoor99@gmail.com</span>
+                <div>
+                    <h3 style="text-align: center;font-family: 'Bree Serif', serif">Leave A Message For Me</h3>
+                    <input type="text" placeholder="Your Name" style="width: 100%">
+                    <br> <br>
+                    <input type="text" placeholder="Your Email" style="width: 100%"><br> <br>
+                    <input type="text" placeholder="Subject" style="width: 100%"><br> <br>
+                    <input type="text" placeholder="Message" style="width: 100%;height: 50px;"><br> <br>
+                    <button class="btn btn-success col-lg-offset-4">Send Message</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+<footer class="footer-distributed" style="margin-top:10px;">
+        <div class="footer-left">
+            <h3>pero<span>-PRANAV</span></h3>
+            <p class="footer-links">
+                <a href="#">Home</a>
+                &nbsp;
+                <a href="#">Projects</a>
+                &nbsp;
+
+                <a href="#">Contact</a>
+                &nbsp;
+
+                <a href="#">Faq</a>
+                &nbsp;
+
+            </p>
+            <p class="footer-company-name">Made by bunch of Pranav Kapoor &copy; 2018</p>
+        </div>
+        <div class="footer-center">
+            <div>
+
+                <i class="fas fa-map-marker-alt fa-2x"></i>&nbsp;
+                <p><span>Northern India Engineering College</span> FC-26, Shastri Park,New Delhi</p>
+            </div>
+            <div>
+                <br>
+                <i class="fas fa-mobile-alt fa-2x"></i>&nbsp;
+                <p>+91 9910476755</p>
+            </div>
+            <div>
+                <br>
+                <i class="far fa-envelope fa-2x"></i>
+                <p><a href="#">pranavkapoor99@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About Me</span>
+
+                I want to become a successful developer in the field of web development and Machine learning.
+                Loves studying and implementing data structures.
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/peropranav"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/peropranav"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/peropranav/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/pranav-k-1a3bbb81/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/peropranav"><i class="fab fa-github"></i></a>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
 </div>
-<br>
-<br>
 
 </body>
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
 <script type="text/javascript" src="custom.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1gC3KLbKu725nGocmYAtjYpmQhK4WslY&callback=myMap"></script>
 
